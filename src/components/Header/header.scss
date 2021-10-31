@@ -1,0 +1,42 @@
+.form__header {
+  border: 1px solid rgba(128, 128, 128, 0.418);
+  border-radius: 5px;
+
+  div {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 10px;
+    box-sizing: border-box;
+  }
+  label {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(63, 63, 63);
+    margin-right: 10px;
+  }
+
+  .form__header_input {
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: rgb(63, 63, 63);
+  }
+
+  .form__header_btn {
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(63, 63, 63);
+    background-color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(66, 59, 59);
+      background-color: rgba(139, 139, 139, 0.103);
+    }
+  }
+}

@@ -1,38 +1,191 @@
 .App {
+  max-width: 1440px;
+  margin: 20px auto 0;
+}
+
+.form {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: flex-start;
+  margin: 50px auto 0;
+  border: 1px solid black;
+}
+
+.form h2 {
+  max-width: 13%;
+  width: 100%;
+  padding: 2px;
+  margin: 0;
+  border: 1px solid black;
+  /* height: 100%; */
+}
+
+.form__body {
+  max-width: 87%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.form__row-one {
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+td {
+  border: 1px solid black;
+  margin: 0;
+  padding: 5px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form__table_one input {
+  max-width: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form__table {
+  max-width: 50%;
+  width: 100%;
+}
+
+.form__table_one-title {
+  padding: 15px 20px;
+}
+
+.form__table_two {
+  display: flex;
+  flex-direction: row;
+}
+
+.form__pressure {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  /* max-width: 50%; */
+  width: 100%;
+  /* border: 1px solid grey; */
+  box-sizing: border-box;
+}
+
+.form__pressure_row {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form__pressure p {
+  max-width: 150px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+}
+
+.form__pressure_input {
+  /* border: 1px solid grey;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  border: 1px solid grey;
+  height: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.form__pressure input {
+  max-width: 60px;
+  border: 1px solid grey;
+  margin: 5px 10px;
+  max-height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form__resistance {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-evenly;
+  max-width: 50%;
+  width: 100%;
+  border: 1px solid grey;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.form__resistance_inpit {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  border: 1px solid grey;
+  height: 50%;
+}
+
+.form__resistance_inpit div {
+  display: flex;
+  flex-direction: row;
+}
+
+.form__resistance_inpit p {
+  margin: 0;
+  padding: 0;
+  max-width: 130px;
+  border: 1px solid grey;
+  height: 100%;
+}
+
+.form__resistance input {
+  max-width: 60px;
+  /* margin-left: 15px; */
+}
+
+.form__row-two {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.form__row-two_table {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  border: 1px solid grey;
+  max-width: 34%;
+}
+
+.form__row-two_table div {
+  /* max-width: 66%;
+  width: 100%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.form__row-two_table div td {
+  border: none;
+}
+
+.form__row-two_table p {
+  margin: 0;
+  padding: 0;
+  max-width: 30%;
+  border-right: 1px solid grey;
+  height: 100%;
+}
+
+.form__row-two_table input {
+  max-height: 20px;
+  max-width: 70px;
 }
